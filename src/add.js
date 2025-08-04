@@ -1,7 +1,6 @@
-// src/add.js (Broken version)
+// src/add.js
 function add(a, b) {
-  // バグ：常に 0 を返す
-  return 0;
+  return a + b;
 }
 
 module.exports = add;
